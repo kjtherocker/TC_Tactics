@@ -1,4 +1,4 @@
-C:\Users\kylej\Documents\PortfolioSSd\DescentIntoAtlantis\DesentIntoAtlantis\Intermediate\Build\Win64\DesentIntoAtlantisEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp
+C:\Users\kylej\Documents\PortfolioSSd\TC_Tactics\DesentIntoAtlantis\Intermediate\Build\Win64\DesentIntoAtlantisEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
@@ -275,10 +275,10 @@ C:\Users\kylej\Documents\PortfolioSSd\DescentIntoAtlantis\DesentIntoAtlantis\Int
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/Yc"C:\Users\kylej\Documents\PortfolioSSd\DescentIntoAtlantis\DesentIntoAtlantis\Intermediate\Build\Win64\DesentIntoAtlantisEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\kylej\Documents\PortfolioSSd\DescentIntoAtlantis\DesentIntoAtlantis\Intermediate\Build\Win64\DesentIntoAtlantisEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\kylej\Documents\PortfolioSSd\DescentIntoAtlantis\DesentIntoAtlantis\Intermediate\Build\Win64\DesentIntoAtlantisEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-/sourceDependencies C:\Users\kylej\Documents\PortfolioSSd\DescentIntoAtlantis\DesentIntoAtlantis\Intermediate\Build\Win64\DesentIntoAtlantisEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.json
+/Yc"C:\Users\kylej\Documents\PortfolioSSd\TC_Tactics\DesentIntoAtlantis\Intermediate\Build\Win64\DesentIntoAtlantisEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\kylej\Documents\PortfolioSSd\TC_Tactics\DesentIntoAtlantis\Intermediate\Build\Win64\DesentIntoAtlantisEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Users\kylej\Documents\PortfolioSSd\TC_Tactics\DesentIntoAtlantis\Intermediate\Build\Win64\DesentIntoAtlantisEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/sourceDependencies C:\Users\kylej\Documents\PortfolioSSd\TC_Tactics\DesentIntoAtlantis\Intermediate\Build\Win64\DesentIntoAtlantisEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.json
 /Zc:inline
 /nologo
 /Oi

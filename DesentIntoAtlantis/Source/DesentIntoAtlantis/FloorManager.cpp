@@ -42,14 +42,15 @@ void AFloorManager::CreateGrid(UFloorBase* aFloor)
 			}
 
 			SpawnFloorNode(x , y,LevelIndex );
-			floorNodes[LevelIndex]->SetWalkableDirections(aFloor->floorData.floorBlueprint[LevelIndex]);
-			FVector2D positionInGrid = FVector2D(x,y);
-			if(aFloor->floorEventData.Contains(positionInGrid))
-			{
-				floorNodes[LevelIndex]->hasFloorEvent = true;
-				floorNodes[LevelIndex]->floorEventHasBeenTriggeredEvent = gameModeBase->floorEventManager->EventHasBeenTriggered;
-				SpawnFloorEnemyPawn(positionInGrid);
-			}
+			//floorNodes[LevelIndex]->SetWalkableDirections(aFloor->floorData.floorBlueprint[LevelIndex]);
+			//FVector2D positionInGrid = FVector2D(x,y);
+			
+			//if(aFloor->floorEventData.Contains(positionInGrid))
+			//{
+			//	floorNodes[LevelIndex]->hasFloorEvent = true;
+			//	floorNodes[LevelIndex]->floorEventHasBeenTriggeredEvent = gameModeBase->floorEventManager->EventHasBeenTriggered;
+			//	SpawnFloorEnemyPawn(positionInGrid);
+			//}
 		}
 	}
 	
@@ -147,40 +148,40 @@ void AFloorManager::SpawnFloor(UFloorBase* aFloorBase)
 
 void AFloorManager::MovePlayerToPreviousNode()
 {
-	AFloorPawn* floorPawn = gameModeBase->floorPawn;
-	FVector2D previousPosition = floorPawn->previousNodePlayerWasOn->positionInGrid;
-	SetPlayerPosition(previousPosition);
+	//AFloorPawn* floorPawn = gameModeBase->floorPawn;
+	//FVector2D previousPosition = floorPawn->previousNodePlayerWasOn->positionInGrid;
+	//SetPlayerPosition(previousPosition);
 }
 
 
 void AFloorManager::SetFloorNodeNeightbors(TArray<AFloorNode*> aFloorNodes)
 {
-	if(aFloorNodes.Num() == 0)
-	{
-		return;
-	}
-
-	for(int i = 0 ; i < aFloorNodes.Num();i++)
-	{
-		AFloorNode* mainNode = aFloorNodes[i];
-
-		// In situations where the node was removed at creation
-		if(mainNode != nullptr)
-		{
-			TArray<ECardinalNodeDirections> walkableDirections = mainNode->walkableDirections;
-		
-			for (ECardinalNodeDirections direction : walkableDirections)
-			{
-				AFloorNode* neightborNode = GetNodeInDirection(mainNode->positionInGrid, direction);
-
-				//In situations where the neightbor in that direction doesnt exist
-				if(neightborNode != nullptr)
-				{
-					mainNode->nodeNeighbors.Add(direction,neightborNode);
-				}
-			}
-		}
-	}
+	//if(aFloorNodes.Num() == 0)
+	//{
+	//	return;
+	//}
+//
+	//for(int i = 0 ; i < aFloorNodes.Num();i++)
+	//{
+	//	AFloorNode* mainNode = aFloorNodes[i];
+//
+	//	// In situations where the node was removed at creation
+	//	if(mainNode != nullptr)
+	//	{
+	//		TArray<ECardinalNodeDirections> walkableDirections = mainNode->walkableDirections;
+	//	
+	//		for (ECardinalNodeDirections direction : walkableDirections)
+	//		{
+	//			AFloorNode* neightborNode = GetNodeInDirection(mainNode->positionInGrid, direction);
+//
+	//			//In situations where the neightbor in that direction doesnt exist
+	//			if(neightborNode != nullptr)
+	//			{
+	//				mainNode->nodeNeighbors.Add(direction,neightborNode);
+	//			}
+	//		}
+	//	}
+	//}
 }
 
 void AFloorManager::SetPlayerPosition(FVector2D aStartPositionInGrid)

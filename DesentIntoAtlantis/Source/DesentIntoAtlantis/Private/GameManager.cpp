@@ -24,7 +24,7 @@ void UGameManager::SetUpTitleMenu()
 
 void UGameManager::StartGame()
 {
-	gameModeBase->floorManager->CreateFloor(EFloorIdentifier::Floor1);
+	gameModeBase->floorManager->CreateFloor(EFloorIdentifier::Test);
 	UDialogueView* DialogueView  = (UDialogueView*)gameModeBase->InGameHUD->PushAndGetView(EViews::Dialogue,EUiType::ActiveUi);
 	DialogueView->SetDialogueData(EDialogueTriggers::StartGame);
 	gameModeBase->partyManager->AddPlayerToActiveParty(EDataTableClasses::Paladin);

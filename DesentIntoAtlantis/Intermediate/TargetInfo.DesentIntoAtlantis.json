@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "DesentIntoAtlantis",
-			"Path": "C:\\Users\\kylej\\Documents\\PortfolioSSd\\DescentIntoAtlantis\\DesentIntoAtlantis\\Source\\DesentIntoAtlantis.Target.cs",
+			"Path": "C:\\Users\\kylej\\Documents\\PortfolioSSd\\TC_Tactics\\DesentIntoAtlantis\\Source\\DesentIntoAtlantis.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "DesentIntoAtlantisEditor",
-			"Path": "C:\\Users\\kylej\\Documents\\PortfolioSSd\\DescentIntoAtlantis\\DesentIntoAtlantis\\Source\\DesentIntoAtlantisEditor.Target.cs",
+			"Path": "C:\\Users\\kylej\\Documents\\PortfolioSSd\\TC_Tactics\\DesentIntoAtlantis\\Source\\DesentIntoAtlantisEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
